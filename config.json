@@ -4,6 +4,17 @@
     "spider": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60",
     "sites": [
         {
+            "key": "豆瓣片单",
+            "name": "豆瓣",
+            "type": 3,
+            "api": "csp_Douban",
+            "jar": "./lib/res_3d126de3.png",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./lib/clean_announcement.json"
+        },
+        {
             "key": "6V影视",
             "name": "6V丨影视",
             "type": 3,
@@ -227,17 +238,6 @@
                 "sp": "Bilimd"
             },
             "timeout": 10
-        },
-        {
-            "key": "豆瓣片单",
-            "name": "豆瓣",
-            "type": 3,
-            "api": "csp_Douban",
-            "jar": "./lib/res_3d126de3.png",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./lib/clean_announcement.json"
         },
         {
             "key": "电视直播",
