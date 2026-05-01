@@ -1,0 +1,5 @@
+# 忽略配置文件
+
+config.json
+raw_config.json
+*.py
